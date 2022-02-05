@@ -6,6 +6,7 @@ from distutils.util import strtobool as sb
 from requests import get
 from telethon.sessions import StringSession
 from telethon.sync import TelegramClient, custom, events
+from pathlib import Path
 
 load_dotenv()
 
@@ -129,10 +130,10 @@ TEMP_DOWNLOAD_DIRECTORY = os.environ.get(
     "TMP_DOWNLOAD_DIRECTORY") or "./downloads"
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = (os.environ.get("UPSTREAM_REPO_URL")
-                    or "https://github.com/donatursperma3/DLX50_UserBot_XVIP.git")
+                    or "https://github.com/UserXTester/HyperAlphaX.git")
 
 # UPSTREAM_REPO_URL branch, the default is master
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "DLX50_UserBot_XVIP")
+UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "HyperAlphaX")
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY") or None
 
 # Logging channel/group ID configuration.
