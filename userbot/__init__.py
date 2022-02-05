@@ -79,8 +79,12 @@ from telethon.tl.functions.account import UpdateUsernameRequest
 from telethon.errors import rpcbaseerrors
 import requests
 from userbot.utils.tools import edit_or_reply as eor
+import logging
+import time
 
 
+logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
+                    level=logging.WARNING)
 
 a = API_ID
 b = API_HASH
