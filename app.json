@@ -89,7 +89,7 @@
       "HASH_CHAT": {
         "description": "Your Hash private link group log of Userbot, eg. = ZF3giC*****NmE1",
         "value": "",
-        "required": True
+        "required": true
       }
   },
   "addons": [{
